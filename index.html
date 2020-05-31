@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Kanban Board</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="boards">
+        <div class="board todo">
+            <h3>Todo</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status"></div>
+                    <div class="content">Do code</div>
+                </div>
+            </div>
+        </div>
+        <div class="board in-progress">
+            <h3>In progress</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status"></div>
+                    <div class="content">Watch videos</div>
+                </div>
+            </div>
+        </div>
+        <div class="board done">
+            <h3>Done</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status"></div>
+                    <div class="content">Test code</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
